@@ -1,0 +1,8 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  name: grafana
+spec:
+  catalog: giantswarm
+  name: grafana
+  version: 0.2.1
